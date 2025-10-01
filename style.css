@@ -1,0 +1,27 @@
+#olxIcon {
+    width: 55px;
+    height: 35px;
+    margin-left: 20px;
+}
+#carIcon {
+    width: 50px;
+    height: 35px;
+}
+#bikeIcon {
+    width: 50px;
+    height: 35px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
