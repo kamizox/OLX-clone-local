@@ -9,13 +9,14 @@
 #locationInput {
   width: 350px;  /* input field ki width */
   padding: 10px 12px;
-  border: 1px solid #d9dbe0;
+  border: 1px solid #0d0d0e;
   border-radius: 6px;
   height: 45px;
   box-sizing: border-box;
   cursor: pointer;         /* readonly field, click se dropdown khulega */
   background: #fff;
   margin-left: 40px;
+ 
 }
 
 /* 2) dropdown ko initially chhupaya hua rakhenge */
@@ -51,4 +52,11 @@
   margin: 6px 0;
   border: none;
   border-top: 1px solid #f0f1f3;
+}
+
+.header-bottom {
+border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
 }

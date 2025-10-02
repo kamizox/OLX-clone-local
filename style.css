@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+   
+}
+
 #olxIcon {
     width: 55px;
     height: 35px;
@@ -23,7 +28,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 1px solid #ccc;
+    background-color: #EBF1FF;
+
 }
 
 #sellIcon {
