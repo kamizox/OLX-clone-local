@@ -1,18 +1,21 @@
 /* 1) container aur input ka basic layout */
 .locationBox {
   position: relative;
-  width: 260px;            /* zarurat ke mutabiq chhota/ bada kar lena */
+  width: 260px;   
+        /* zarurat ke mutabiq chhota/ bada kar lena */
   font-family: Arial, sans-serif;
 }
 
 #locationInput {
-  width: 100%;
+  width: 350px;  /* input field ki width */
   padding: 10px 12px;
   border: 1px solid #d9dbe0;
   border-radius: 6px;
+  height: 45px;
   box-sizing: border-box;
   cursor: pointer;         /* readonly field, click se dropdown khulega */
   background: #fff;
+  margin-left: 40px;
 }
 
 /* 2) dropdown ko initially chhupaya hua rakhenge */
